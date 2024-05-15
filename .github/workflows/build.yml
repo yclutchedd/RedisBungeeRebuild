@@ -29,7 +29,7 @@ jobs:
       id: create_release
       uses: actions/create-release@v1
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.BUILD_RELEASE_TOKEN }} # Usando o token gerado
       with:
         tag_name: v0.5
         release_name: Release v0.5
@@ -44,4 +44,4 @@ jobs:
         asset_name: RedisBungee-0.5.jar
         asset_content_type: application/java-archive
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.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 }} # Usando o token gerado
