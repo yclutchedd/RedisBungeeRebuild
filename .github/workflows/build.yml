@@ -28,13 +28,13 @@ jobs:
     - name: Create GitHub Release
       id: create_release
       uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: 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
       with:
         tag_name: v0.5
         release_name: Release v0.5
         draft: false
         prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload release artifact
       uses: actions/upload-release-asset@v1
@@ -44,4 +44,4 @@ jobs:
         asset_name: RedisBungee-0.5.jar
         asset_content_type: application/java-archive
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
