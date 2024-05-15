@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.imaginarycode.minecraft.redisbungee.test.UUIDNameTest" time="1.766" tests="2" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\joaozeirah\Downloads\RedisBungee-master\target\test-classes;C:\Users\joaozeirah\Downloads\RedisBungee-master\target\classes;C:\Users\joaozeirah\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\joaozeirah\.m2\repository\org\apache\commons\commons-pool2\2.5.0\commons-pool2-2.5.0.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-api\1.12-SNAPSHOT\bungeecord-api-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-chat\1.12-SNAPSHOT\bungeecord-chat-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-config\1.12-SNAPSHOT\bungeecord-config-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-event\1.12-SNAPSHOT\bungeecord-event-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-protocol\1.12-SNAPSHOT\bungeecord-protocol-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-codec\4.1.25.Final\netty-codec-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-transport\4.1.25.Final\netty-transport-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-buffer\4.1.25.Final\netty-buffer-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-common\4.1.25.Final\netty-common-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-resolver\4.1.25.Final\netty-resolver-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;C:\Users\joaozeirah\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\joaozeirah\.m2\repository\org\projectlombok\lombok\1.16.16\lombok-1.16.16.jar;C:\Users\joaozeirah\.m2\repository\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar;C:\Users\joaozeirah\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar;C:\Users\joaozeirah\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\joaozeirah\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\joaozeirah\AppData\Local\Temp\surefire8050413980598373770\surefirebooter-20240515152319482_3.jar C:\Users\joaozeirah\AppData\Local\Temp\surefire8050413980598373770 2024-05-15T15-23-18_828-jvmRun1 surefire-20240515152319482_1tmp surefire_0-20240515152319482_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\joaozeirah\Downloads\RedisBungee-master\target\test-classes;C:\Users\joaozeirah\Downloads\RedisBungee-master\target\classes;C:\Users\joaozeirah\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\joaozeirah\.m2\repository\org\apache\commons\commons-pool2\2.5.0\commons-pool2-2.5.0.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-api\1.12-SNAPSHOT\bungeecord-api-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-chat\1.12-SNAPSHOT\bungeecord-chat-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-config\1.12-SNAPSHOT\bungeecord-config-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-event\1.12-SNAPSHOT\bungeecord-event-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\net\md-5\bungeecord-protocol\1.12-SNAPSHOT\bungeecord-protocol-1.12-SNAPSHOT.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-codec\4.1.25.Final\netty-codec-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-transport\4.1.25.Final\netty-transport-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-buffer\4.1.25.Final\netty-buffer-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-common\4.1.25.Final\netty-common-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\io\netty\netty-resolver\4.1.25.Final\netty-resolver-4.1.25.Final.jar;C:\Users\joaozeirah\.m2\repository\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;C:\Users\joaozeirah\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\joaozeirah\.m2\repository\org\projectlombok\lombok\1.16.16\lombok-1.16.16.jar;C:\Users\joaozeirah\.m2\repository\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar;C:\Users\joaozeirah\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar;C:\Users\joaozeirah\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\joaozeirah\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\joaozeirah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre"/>
+    <property name="basedir" value="C:\Users\joaozeirah\Downloads\RedisBungee-master"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\joaozeirah\AppData\Local\Temp\surefire8050413980598373770\surefirebooter-20240515152319482_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\resources.jar;C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\rt.jar;C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\sunrsasign.jar;C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\jsse.jar;C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\jce.jar;C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\charsets.jar;C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\jfr.jar;C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_412-b08"/>
+    <property name="user.name" value="joaozeirah"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\joaozeirah\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JOAOZE~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1"/>
+    <property name="java.version" value="1.8.0_412"/>
+    <property name="user.dir" value="C:\Users\joaozeirah\Downloads\RedisBungee-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\joaozeirah\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\joaozeirah\AppData\Local\Programs\Python\Python310\;C:\Users\joaozeirah\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\joaozeirah\AppData\Local\Programs\Python\Python312\;C:\Users\joaozeirah\AppData\Local\Microsoft\WindowsApps;C:\Users\joaozeirah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joaozeirah\AppData\Roaming\npm;C:\Users\joaozeirah\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-6.1.1-full_build\bin;C:\xampp\php;C:\Users\joaozeirah\AppData\Local\ComposerSetup\bin;C:\Users\joaozeirah\AppData\Roaming\Composer\vendor\bin;C:\Users\joaozeirah\go\bin;C:\Program Files\mitmproxy\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.412-b08"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="C:\Users\joaozeirah\.jdks\corretto-1.8.0_412\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testNameToUuid" classname="com.imaginarycode.minecraft.redisbungee.test.UUIDNameTest" time="1.235">
+    <system-out><![CDATA[Current UUID for name vemacs is 964cfdcd-ce9b-41c9-a79f-6b51a70ae7b9
+]]></system-out>
+  </testcase>
+  <testcase name="testUuidToName" classname="com.imaginarycode.minecraft.redisbungee.test.UUIDNameTest" time="0.526">
+    <error message="java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $" type="com.google.gson.JsonSyntaxException"><![CDATA[com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:899)
+	at com.google.gson.Gson.fromJson(Gson.java:852)
+	at com.google.gson.Gson.fromJson(Gson.java:801)
+	at com.imaginarycode.minecraft.redisbungee.util.uuid.NameFetcher.nameHistoryFromUuid(NameFetcher.java:32)
+	at com.imaginarycode.minecraft.redisbungee.test.UUIDNameTest.testUuidToName(UUIDNameTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:80)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.Gson.fromJson(Gson.java:887)
+	... 29 more
+]]></error>
+  </testcase>
+</testsuite>
