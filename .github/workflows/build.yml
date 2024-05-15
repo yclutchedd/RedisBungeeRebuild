@@ -29,8 +29,8 @@ jobs:
       uses: actions/upload-release-asset@v1
       with:
         upload_url: ${{ github.event.repository.releases_url }}
-        asset_path: ./target/RedisBungee.jar  # Add this line
-        asset_name: RedisBungee.jar
+        asset_path: ./target/RedisBungee-0.5.jar  # Add this line
+        asset_name: RedisBungee-0.5.jar
         asset_content_type: application/java-archive
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
