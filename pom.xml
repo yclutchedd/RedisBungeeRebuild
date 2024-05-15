@@ -24,7 +24,7 @@
     <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/username/repo</url>
+            <url>https://maven.pkg.github.com/yclutchedd/RedisBungeeRebuild</url>
     </repository>
         <repository>
             <id>md_5-releases</id>
